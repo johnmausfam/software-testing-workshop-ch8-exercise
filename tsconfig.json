@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "sourceMap": false,
+        "module": "commonjs",
+        "target": "ES2017",
+        "types": ["jest", "node"],
+        "strict": false,                                      /* Enable all strict type-checking options. */
+        "strictNullChecks": false,                         /* When type checking, take into account 'null' and 'undefined'. */
+        "strictFunctionTypes": false,                      /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
+        "noImplicitAny": true
+    },
+    "include": ["__tests__"],
+    "exclude": ["node_modules"]
+}
